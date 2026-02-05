@@ -24,7 +24,7 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4 # Atualizado de v2 para v4
+      uses: actions/checkout@v4 # Use latest stable v4 of checkout action
 
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v3 # Atualizado de v1 para v3
